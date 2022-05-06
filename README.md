@@ -8,6 +8,9 @@ To get Run The App With The Right Way:
 
 - clone the project
 
+then go to starter dir
+> cd starter
+
 ## What You're Getting inside 'starter' file
 
 ```bash
