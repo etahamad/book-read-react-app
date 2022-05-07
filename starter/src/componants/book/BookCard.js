@@ -28,7 +28,7 @@ const BookCard = ({book, OnBookShelfUpdated}) =>{
                   }
                   />
                   <div className="book-shelf-changer">
-                      <select value={book.shelf ? bookShelf : "none"} onChange={handelSelection}>
+                      <select value={bookShelf ? bookShelf : "none"} onChange={handelSelection}>
                           <option disabled>
                               Move to...
                           </option>
